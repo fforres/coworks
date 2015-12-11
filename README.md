@@ -1,12 +1,9 @@
-# React Redux Universal Hot Example
+# CWRKS CL
 
 [![build status](https://img.shields.io/travis/erikras/react-redux-universal-hot-example/master.svg?style=flat-square)](https://travis-ci.org/erikras/react-redux-universal-hot-example)
 [![Dependency Status](https://david-dm.org/erikras/react-redux-universal-hot-example.svg?style=flat-square)](https://david-dm.org/erikras/react-redux-universal-hot-example)
 [![devDependency Status](https://david-dm.org/erikras/react-redux-universal-hot-example/dev-status.svg?style=flat-square)](https://david-dm.org/erikras/react-redux-universal-hot-example#info=devDependencies)
 [![react-redux-universal channel on discord](https://img.shields.io/badge/discord-react--redux--universal%40reactiflux-brightgreen.svg?style=flat-square)](https://discord.gg/0ZcbPKXt5bZZb1Ko)
-[![Demo on Heroku](https://img.shields.io/badge/demo-heroku-brightgreen.svg?style=flat-square)](https://react-redux.herokuapp.com)
-[![PayPal donate button](https://img.shields.io/badge/donate-paypal-brightgreen.svg?style=flat-square)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E2LK57ZQ9YRMN)
-
 ---
 
 ## About
@@ -34,8 +31,6 @@ This is a starter boilerplate app I've put together using the following technolo
 * [react-document-meta](https://github.com/kodyl/react-document-meta) to manage title and meta tag information on both server and client
 * [webpack-isomorphic-tools](https://github.com/halt-hammerzeit/webpack-isomorphic-tools) to allow require() work for statics both on client and server
 * [mocha](https://mochajs.org/) to allow writing unit tests for the project.
-
-I cobbled this together from a wide variety of similar "starter" repositories. As I post this in June 2015, all of these libraries are right at the bleeding edge of web development. They may fall out of fashion as quickly as they have come into it, but I personally believe that this stack is the future of web development and will survive for several years. I'm building my new projects like this, and I recommend that you do, too.
 
 ## Installation
 
@@ -173,19 +168,19 @@ This project moves fast and has an active community, so if you have a question t
 
 They will only show in development, but if you want to disable them even there, set `__DEVTOOLS__` to `false` in `/webpack/dev.config.js`.
 
-## Roadmap 
+## Roadmap
 
-Although this isn't a library, we recently started versioning to make it easier to track breaking changes and emerging best practices. 
+Although this isn't a library, we recently started versioning to make it easier to track breaking changes and emerging best practices.
 
 * [Babel 6](https://github.com/babel/babel) - Coming soon with v1 (see [#488](https://github.com/erikras/react-redux-universal-hot-example/issues/488))
 * [Inline Styles](docs/InlineStyles.md) - CSS is dead
 
 ## Contributing
 
-I am more than happy to accept external contributions to the project in the form of feedback, bug reports and even better - pull requests :) 
+I am more than happy to accept external contributions to the project in the form of feedback, bug reports and even better - pull requests :)
 
-If you would like to submit a pull request, please make an effort to follow the guide in [CONTRIBUTING.md](CONTRIBUTING.md). 
- 
+If you would like to submit a pull request, please make an effort to follow the guide in [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ---
 Thanks for checking this out.
 
