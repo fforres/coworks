@@ -5,7 +5,7 @@ import {
     App,
     Chat,
     Home,
-    GoogleMap,
+    CoworksMap,
     Widgets,
     About,
     Login,
@@ -48,7 +48,7 @@ export default (store) => {
 
       { /* Routes */ }
       <Route path="about" component={About}/>
-      <Route path="map" component={GoogleMap}/>
+      <Route path="map" component={CoworksMap}/>
       <Route path="login" component={Login}/>
       <Route path="survey" component={Survey}/>
       <Route path="widgets" component={Widgets}/>

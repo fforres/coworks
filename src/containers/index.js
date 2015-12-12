@@ -7,4 +7,4 @@ export Login from './Login/Login';
 export LoginSuccess from './LoginSuccess/LoginSuccess';
 export Survey from './Survey/Survey';
 export NotFound from './NotFound/NotFound';
-export Gmap from './Map/Map';
+export CoworksMap from './CoworksMap/CoworksMap';

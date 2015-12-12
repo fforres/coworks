@@ -1,5 +1,4 @@
 {
   "node": true,
-  "esnext": true,
-  "Support Linting JSX":true
+  "esnext": true
 }

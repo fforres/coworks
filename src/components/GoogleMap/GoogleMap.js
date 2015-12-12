@@ -1,5 +1,6 @@
 import React, {Component, PropTypes} from 'react';
-import GMap from 'google-map-react';
+import ReactDOM from 'react-dom';
+import Resizable from 'react-component-resizable';
 import MyMarker from './Marker.js';
 
 class GoogleMap extends Component {
@@ -23,13 +24,28 @@ class GoogleMap extends Component {
     super(props);
   }
 
+  componentDidMount(){
+    var a = ReactDOM;
+    ReactDOM.findDOMNode(this).minHeight = "200px";
+    ReactDOM.findDOMNode(this).minWidth = "100%";
+  }
+  onResize() {
+    debugger;
+    this._googleMapRef._setViewSize();
+    if (this.state.maps && this.state.map)
+    {
+     let center =  this.state.map.getCenter();
+     this.state.maps.event.trigger(this.state.map, 'resize');
+     this.state.map.setCenter(center);
+    }
+  }
+
   render() {
     return (
-      <GMap
-        defaultCenter = {this.props.center}
-        defaultZoom = {this.props.zoom}>
-        <MyMarker lat={59.955413} lng={30.337844} text={'A'} />
-      </GMap>
+      <Resizable
+        className="via transferPropsTo"
+        onResize={this.onResize}>
+      </Resizable>
     );
   }
 }

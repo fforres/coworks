@@ -28,7 +28,7 @@ function fetchData(getState, dispatch) {
   {logout, pushState})
 export default class App extends Component {
   static propTypes = {
-    children: PropTypes.object.isRequired,
+    children: PropTypes.object,
     user: PropTypes.object,
     logout: PropTypes.func.isRequired,
     pushState: PropTypes.func.isRequired
